@@ -1,10 +1,11 @@
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
 ![Built with Flask](https://img.shields.io/badge/Built%20with-Flask-b5f05d.svg)
+![Unit Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 # Pictures Microservice Project
 
-This project involves developing a microservice for managing pictures and implementing CRUD endpoints. Its primary goal is to showcase the practical application of Flask in a real-world scenario as part of my training in the [IBM Back-End Development Professional Certificate](https://www.coursera.org/professional-certificates/ibm-backend-development), utilizing a [template](https://github.com/ibm-developer-skills-network/luggb-Back-End-Development-Pictures) provided by IBM Developer Skills Network. Tests for the routes have been written in the original template following the TDD process. The objective in this project is to implement the routes so that the code can pass all tests.
+This project involves developing a microservice for managing pictures and implementing CRUD endpoints. Its primary goal is to showcase the practical application of Flask in a real-world scenario as part of my training in the [IBM Back-End Development Professional Certificate](https://www.coursera.org/professional-certificates/ibm-backend-development), utilizing a [template](https://github.com/ibm-developer-skills-network/luggb-Back-End-Development-Pictures) provided by IBM Developer Skills Network.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -20,7 +21,7 @@ This project involves developing a microservice for managing pictures and implem
 ## 1. Introduction <a name="introduction"></a>
 
 ### Project Objective:
-The main objective of this project is to create a microservice for retrieving and managing picture data and implementing CRUD (Create, Read, Update, Delete) endpoints using Flask. This microservice, along with the [Songs Microservice](https://github.com/fkanedev/fkctp-flask-Song-ms), will be integrated into the backend of a [main application built with Django](https://github.com/fkanedev/fkctp-django-Music-Band-Site-ma-ui). The project demonstrates the usage and implementation of these technologies in a practical scenario.
+The main goal of this project is to create a microservice for retrieving and managing picture data and implementing CRUD (Create, Read, Update, Delete) endpoints using Flask. Since tests for the routes have been written in the [original template](https://github.com/ibm-developer-skills-network/luggb-Back-End-Development-Pictures) following the TDD process, the aim here is to implement the routes so that the code can pass all tests. This microservice, along with the [Songs Microservice](https://github.com/fkanedev/fkctp-flask-Song-ms), will be integrated into the backend of a [main application built with Django](https://github.com/fkanedev/fkctp-django-Music-Band-Site-ma-ui). The project demonstrates the usage and implementation of these technologies in a practical scenario.
 
 ### Key Features:
 - Retrieve and manage picture data from a JSON file.
