@@ -149,8 +149,23 @@ This backend project is primarily organized around the Flask framework. The dire
 The data model for this project includes the following fields for a picture:
 
 - id: Unique identifier for the picture.
-- url: URL of the picture.
-- description: Description of the picture.
+- pic_url: URL of the picture.
+- event_country: Country where the event occurred.
+- event_state: State where the event occurred.
+- event_city: City where the event occurred.
+- event_date: Date of the event.
+
+Example:
+```json
+{
+    "id": 1,
+    "pic_url": "http://dummyimage.com/136x100.png/5fa2dd/ffffff",
+    "event_country": "United States",
+    "event_state": "District of Columbia",
+    "event_city": "Washington",
+    "event_date": "11/16/2022"
+}
+```
 
 ### Testing:
 Tests for the routes have been written using pytest in the original template. The objective is to implement the routes so that the code can pass all tests. To run the tests, use the following command:
