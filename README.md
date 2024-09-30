@@ -7,6 +7,10 @@
 
 This project involves developing a microservice for managing pictures and implementing CRUD endpoints. Its primary goal is to showcase the practical application of Flask in a real-world scenario as part of my training in the [IBM Back-End Development Professional Certificate](https://www.coursera.org/professional-certificates/ibm-backend-development), utilizing a [template](https://github.com/ibm-developer-skills-network/luggb-Back-End-Development-Pictures) provided by IBM Developer Skills Network.
 
+# Topics
+
+`Python 3.9`, `Flask`, `CRUD Operations`, `Microservices`, `Pytest`, `Gunicorn`, `REST API`, `JSON`, `IBM Back-End Development`, `MIT License`, `TDD (Test-Driven Development)`
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Technologies Used](#technologies-used)
